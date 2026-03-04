@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rafael Jacobsene</title>
+    <meta name="description" content="Your short description." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="header">
+        <h1>Rafael Jacobsen</h1>
+        <p class="subtitle">Undergraduate at Harvard University</p>
+        <nav class="links">
+          <a href="mailto:rjacobsen@college.harvard.edu">Email</a>
+          <a href="https://github.com/rafaeljacobsen">GitHub</a>
+		<a href="www.linkedin.com/in/rafael-jacobsen-6737002a5">LinkedIn</a>
+          <a href="/resume.pdf">Resume</a>
+        </nav>
+      </header>
+
+      <section>
+        <h2>About</h2>
+        <p>
+	I do computational neuroscience at Harvard. I study the <i> C. elegans </i> worm in Aravinthan Samuel's lab and will be performing research with Yuhai Tu at the flatiron this summer.
+        </p>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <article class="item">
+          <h3><a href="https://www.cell.com/current-biology/abstract/S0960-9822(25)01325-9">Thermotaxis dispatch</a></h3>
+          <p>Dispatch for current biology on Thermotaxis.</p>
+        </article>
+
+        <article class="item">
+          <h3><a href="https://rafaeljacobsen.github.io/transittracker/">Transit tracker</a></h3>
+          <p>In progress tracker of all passenger transit in america (and their set routes).</p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="y"></span> Rafael Jacobsen</p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
